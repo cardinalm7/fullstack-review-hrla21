@@ -1,5 +1,6 @@
 require('express');
 var router = require('express').Router()
+const db = require('../db/index');
 
 router.get('/playersList', (req, res) => {
     //null
